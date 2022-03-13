@@ -40,35 +40,35 @@
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" id="option1" onclick="add(this.id)">Okoman Restaurant</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Okoman Restaurant" onclick="add(this.id)">Okoman Restaurant</a>
                 </div>
             </div>
         </div>
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" id="option2" onclick="add(this.id)">Sushi California</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Sushi California" onclick="add(this.id)">Sushi California</a>
                 </div>
             </div>
         </div>
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" id="option3" onclick="add(this.id)">Bento Sushi</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Bento Sushi" onclick="add(this.id)">Bento Sushi</a>
                 </div>
             </div>
         </div>
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" id="option4" onclick="add(this.id)">North Road Sushi & Kitchen</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="North Road Sushi & Kitchen" onclick="add(this.id)">North Road Sushi & Kitchen</a>
                 </div>
             </div>
         </div>
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" id="option5" onclick="add(this.id)">Katsuya Coquitlam</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Katsuya Coquitlam" onclick="add(this.id)">Katsuya Coquitlam</a>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
     </div>
 
     <div class="container d-flex justify-content-center pb-5 mb-5">
-        <a class="btn btn-dark btn-lg" href="finish.html" role = "button" id = "chooseOne" onclick = "reduce(top3, 1)">Complete</a>
+        <a class="btn btn-dark btn-lg" href="finish.html" role = "button" id = "chooseOne" onclick = "reduce(top3)">Complete</a>
     </div>
 
     <!-- bottom nav bar -->
@@ -94,7 +94,7 @@
     <script src="/scripts/picker.js"></script>
     <script src="/scripts/reduction.js"></script>
     <script>
-        let top3 = sessionStoreage.getItem("top3");
+        let top3 = sessionStorage.getItem("top3");
     </script>
   
 </body>

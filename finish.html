@@ -28,7 +28,8 @@
 
     <div id="text">
         <h1 class="display-1 d-flex justify-content-center py-3">Congratulations!</h1>
-        <h1 class="d-flex justify-content-center mx-5 pb-3">The restaurant selected for you:</h1>
+        <h1 class="d-flex justify-content-center mx-5 pb-3">The restaurant selected for you: </h1>
+        <p id="final"></p>
     </div>
 
     <div class="container d-flex justify-content-center">
@@ -58,7 +59,11 @@
             </a>
         </div>
     </nav>
-
+    <script src="/scripts/reduction.js"></script>
+    <script>
+        let x = sessionStorage.getItem("final");
+        document.getElementById("final").innerHTML = x;
+    </script>
 </body>
 
 </html>
