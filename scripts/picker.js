@@ -8,7 +8,7 @@ function add(clicked_id) {
         alert("Please only pick 3");
     }
     console.log(top3);
-    sessionStorage.setItem("top3", top3);
+    window.sessionStorage.setItem("top3", JSON.stringify(top3));
 }
 
 let rerolltop3 = [];
@@ -23,5 +23,5 @@ btn4.addEventListener('click', () => btn4.style.backgroundColor = '#337ab7', rer
 let btn5 = document.getElementById("Katsuya Coquitlam");
 btn5.addEventListener('click', () => btn5.style.backgroundColor = '#337ab7', rerolltop3.push(btn5.id));
 
-sessionStorage.setItem("rerolltop3", rerolltop3)
+
 
