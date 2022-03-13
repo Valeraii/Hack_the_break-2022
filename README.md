@@ -1,5 +1,6 @@
 # Hack The Break 2022
 Contributors: \
+\
 Vincent On ----- Backend Developer and Project Manager \
 Tommy Nguyen --- Frontend Developer \
 Andy Lau ------- Frontend Developer \
