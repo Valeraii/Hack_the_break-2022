@@ -1,4 +1,6 @@
 function updateSlider(slideAmount) {
     let sliderDiv = document.getElementById("radius_numbers");
-    sliderDiv.innerHTML = slideAmount;
+    radiusAmount = slideAmount/5;
+    sliderDiv.innerHTML = radiusAmount + " km";
+    console.log(radiusAmount)
 }

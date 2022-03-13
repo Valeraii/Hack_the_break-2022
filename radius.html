@@ -29,8 +29,12 @@
   <!-- Content -->
   <div class="container-fluid">
     <p class="h1 m-4">Please choose the radius range:</p>
-    <input type="range" class="form-range my-5" step="5" id="radius" onchange="updateSlider(this.value)">
-    <div id="radius_numbers"></div>
+    <input type="range" class="form-range mt-5" step="5" id="radius" onchange="updateSlider(this.value)">
+    <div class="position-relative mb-5">
+      <div class="position-absolute start-0">0 km</div>
+      <div class="position-absolute start-50" id="radius_numbers">10 km</div>
+      <div class="position-absolute end-0">20 km</div>
+    </div>
 
     <div class="container d-flex justify-content-center pb-5 mb-5">
       <a class="btn btn-dark btn-lg" href="picker.html">Complete</a>
