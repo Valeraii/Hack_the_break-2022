@@ -6,12 +6,13 @@ function reduce(list, numOptions) {
 		let item = list[Math.floor(Math.random()*list.length)];
 		if (!reduction.includes(item)) {
   		reduction.push(item);
-  	}
+  		}
 	}
   return reduction;
 }
 
-const reduced = reduce(list, 5);
+const reduced = reduce(sessionStoreage.getItem("top3"), 5);
+console.log(reduced);
 
 document.getElementById("option1").innerHTML = reduced[0];
 document.getElementById("option2").innerHTML = reduced[1];

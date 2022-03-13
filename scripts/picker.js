@@ -8,4 +8,5 @@ function add(clicked_id) {
         alert("Please only pick 3");
     }
     console.log(top3);
+    sessionStorage.setItem("top3", top3);
 }

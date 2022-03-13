@@ -76,7 +76,7 @@
     </div>
 
     <div class="container d-flex justify-content-center pb-5 mb-5">
-        <a class="btn btn-dark btn-lg" href="finish.html" role = "button">Complete</a>
+        <a class="btn btn-dark btn-lg" href="finish.html" role = "button" id = "chooseOne" onclick = "reduce(top3, 1)">Complete</a>
     </div>
 
     <!-- bottom nav bar -->
@@ -92,6 +92,11 @@
     </nav>
 
     <script src="/scripts/picker.js"></script>
+    <script src="/scripts/reduction.js"></script>
+    <script>
+        let top3 = sessionStoreage.getItem("top3");
+    </script>
+  
 </body>
 
 </html>
