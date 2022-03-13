@@ -44,7 +44,7 @@
 
     
     <div class="container d-flex justify-content-center py-5 mb-5">
-        <a class="btn btn-dark btn-lg" href="">Reroll</a>
+        <a class="btn btn-dark btn-lg" role = "button" onclick = "reroll()" href="">Reroll</a>
     </div>
 
     <!-- bottom nav bar -->
@@ -59,6 +59,7 @@
         </div>
     </nav>
     <script src="/scripts/reduction.js"></script>
+    <script src="/scripts/finish.js"></script>
     <script>
         let x = sessionStorage.getItem("final");
         document.getElementById("final").innerHTML = x;
