@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="./diet.css" />
+    <link rel="stylesheet" href="./navbars/nav.css" />
+
+    <title>Random Restaurant Generator</title>
+</head>
+
+<body>
+
+    <!-- top nav bar -->
+    <nav class="navbar navbar-light bg-success">
+      <div class="container py-3">
+        <a class="navbar-brand" id="logo">Random Restaurant Generator</a>
+      </div>
+    </nav>
+
+    <div id = "instructions">Pick any dietry restrictions you have: </div>
+
+    <div id="food-cards">
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/glutenfree.jpg" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                Gluten Free
+                </h5>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/keto.jpg" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                Keto
+                </h5>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/kosher.jpg" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                kosher
+                </h5>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/vegan.jpg" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                Vegan
+                </h5>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/vegetarian.png" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                Vegetarian
+                </h5>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <img class="card-img-top" src="/Images/all.jpg" alt="Gluten Free">
+            <div class="card-body text-primary">
+                <h5 style="color: black; text-align: center" class="card-title">
+                No Restrictions
+                </h5>
+            </div>
+        </div>
+      </div>
+    
+    <div class="container d-flex justify-content-center">
+        <a class="btn btn-dark btn-lg" href="radius.html">Complete</a>
+    </div>
+   
+    <!-- bottom nav bar -->
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="javascript:history.back()">
+                <i class="material-icons">arrow_back_ios_new</i></a>
+          <a class="navbar-brand" href="">
+            <i class="material-icons">home</i></a>
+        </div>
+    </nav>
+    
+</body>
+</html>

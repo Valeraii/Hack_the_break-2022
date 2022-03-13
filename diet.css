@@ -1,0 +1,36 @@
+body {
+    padding-bottom: 60px;
+  }
+  
+  #backButton {
+    color: black;
+    margin-left: 50%;
+  }
+
+  #instructions {
+      margin-left: 20px;
+      font-size: 30px;
+  }
+  
+  #food-cards {
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 50% 50%;
+    align-content: start;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .container-fluid a {
+    margin: auto;
+  }
+  
+
+  
+  
+  
