@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <!-- CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/diet.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="./navbars/nav.css" />
 
     <title>Random Restaurant Generator</title>
@@ -25,73 +21,27 @@
 
     <!-- top nav bar -->
     <nav class="navbar navbar-light bg-success">
-      <div class="container py-3">
-        <a class="navbar-brand" id="logo">Random Restaurant Generator</a>
-      </div>
+        <div class="container py-3">
+            <a class="navbar-brand" id="logo">Random Restaurant Generator</a>
+        </div>
     </nav>
 
-    <div id = "instructions">Pick any dietry restrictions you have: </div>
-
-    <div id="food-cards">
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/glutenfree.jpg" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                Gluten Free
-                </h5>
-            </div>
-        </div>
-
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/keto.jpg" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                Keto
-                </h5>
-            </div>
-        </div>
-
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/kosher.jpg" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                kosher
-                </h5>
-            </div>
-        </div>
-
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/vegan.jpg" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                Vegan
-                </h5>
-            </div>
-        </div>
-
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/vegetarian.png" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                Vegetarian
-                </h5>
-            </div>
-        </div>
-
-        <div class="card border-secondary mb-3">
-            <img class="card-img-top" src="./Images/all.jpg" alt="Gluten Free">
-            <div class="card-body text-primary">
-                <h5 style="color: black; text-align: center" class="card-title">
-                No Restrictions
-                </h5>
-            </div>
-        </div>
-      </div>
-    
-    <div class="container d-flex justify-content-center pb-5 mb-5">
-        <a class="btn btn-dark btn-lg" href="radius.html">Complete</a>
+    <div id="text">
+        <h1 class="display-1 d-flex justify-content-center py-3">Congratulations!</h1>
+        <h1 class="d-flex justify-content-center mx-5 pb-3">The restaurant selected for you:</h1>
     </div>
-   
+
+    <div class="container d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title d-flex justify-content-center">Restaurant</h5>
+                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">Address</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- bottom nav bar -->
     <nav class="navbar fixed-bottom navbar-light bg-success">
         <div class="container-fluid">
@@ -103,6 +53,7 @@
             </a>
         </div>
     </nav>
-    
+
 </body>
+
 </html>
