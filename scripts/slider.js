@@ -3,4 +3,5 @@ function updateSlider(slideAmount) {
     radiusAmount = slideAmount/5;
     sliderDiv.innerHTML = radiusAmount + " km";
     console.log(radiusAmount)
+    sessionStorage.setItem("radius", radiusAmount);
 }

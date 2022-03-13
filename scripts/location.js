@@ -7,4 +7,6 @@ function storePosition(position){
     let longitude = position.coords.longitude;
     console.log(latitue)
     console.log(longitude)
+    sessionStorage.setItem("lat", latitue);
+    sessionStorage.setItem("long", longitude);
 }
