@@ -35,36 +35,36 @@
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card" id = "sushi">
-                    <a class="btn btn-light card-body" href="#" role="button" value="GlutenFree">Gluten Free</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="GlutenFree" onclick="add(this.id)">Gluten Free</a>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="Keto">Keto</a>
-                </div>
-            </div>
-        </div>
-        <div class="row pb-3 px-3">
-            <div class="col">
-                <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="Vegetarian">Vegetarian</a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="Vegan">Vegan</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Keto" onclick="add(this.id)">Keto</a>
                 </div>
             </div>
         </div>
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="Kosher">Kosher</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Vegetarian" onclick="add(this.id)">Vegetarian</a>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="Pescatarian">Pescatarian</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="Vegan"  onclick="add(this.id)">Vegan</a>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-3 px-3">
+            <div class="col">
+                <div class="card">
+                    <a class="btn btn-light card-body" href="#" role="button" id="Kosher" onclick="add(this.id)">Kosher</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="btn btn-light card-body" href="#" role="button" id="Pescatarian" onclick="add(this.id)">Pescatarian</a>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="row pb-3 px-3">
             <div class="col">
                 <div class="card">
-                    <a class="btn btn-light card-body" href="#" role="button" value="No Preference">No Preference</a>
+                    <a class="btn btn-light card-body" href="#" role="button" id="No Preference">No Preference</a>
                 </div>
             </div>
         </div>
@@ -93,6 +93,7 @@
             </a>
         </div>
     </nav>
-    
+
+<script src="/scripts/cuisine.js"></script>
 </body>
 </html>
