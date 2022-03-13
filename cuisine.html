@@ -27,7 +27,14 @@
 </head>
 
 <body>
-    <div class="Title">
+    <!-- top nav bar -->
+<nav class="navbar navbar-light bg-success">
+    <div class="container py-3">
+      <a class="navbar-brand" id="logo">Random Restaurant Generator</a>
+    </div>
+  </nav>
+
+    <div class="container">
         <h1 class="d-flex justify-content-center m-5 display-1">Pick a cuisine</h1>
         <div class="row pb-3 px-3">
             <div class="col">
@@ -88,8 +95,17 @@
         </div>
     </div>
 
-    <nav id="footerPlaceholder"></nav>
-    <script src="./scripts/skeleton.js"></script>
+    <!-- bottom nav bar -->
+    <nav class="navbar fixed-bottom navbar-light bg-success">
+        <div class="container-fluid">
+            <a href="javascript:history.back()">
+                <i class="material-icons text-dark">arrow_back_ios_new</i>
+            </a>
+            <a class="navbar-brand m-auto" href="">
+                <i class="material-icons">home</i>
+            </a>
+        </div>
+    </nav>
 </body>
 
 </html>

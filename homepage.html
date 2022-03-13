@@ -23,8 +23,14 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 </head>
+
 <body>
-    <nav id="navbarPlaceholder"></nav>
+    <!-- top nav bar -->
+    <nav class="navbar navbar-light bg-success">
+        <div class="container py-3">
+            <a class="navbar-brand" id="logo">Random Restaurant Generator</a>
+        </div>
+    </nav>
 
     <div class="Title">
         <h1 class="d-flex justify-content-center m-5 display-1">Decision Maker</h1>
@@ -36,8 +42,17 @@
         </div>
     </div>
 
-    <nav id="footerPlaceholder"></nav>
-
-    <script src="./scripts/skeleton.js"></script>
+    <!-- bottom nav bar -->
+    <nav class="navbar fixed-bottom navbar-light bg-success">
+        <div class="container-fluid">
+            <a href="javascript:history.back()">
+                <i class="material-icons text-dark">arrow_back_ios_new</i>
+            </a>
+            <a class="navbar-brand m-auto" href="">
+                <i class="material-icons">home</i>
+            </a>
+        </div>
+    </nav>
 </body>
+
 </html>
